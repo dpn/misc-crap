@@ -1,0 +1,18 @@
+# required by www-client/chromium-29.0.1547.57
+# required by chromium (argument)
+>=dev-libs/libxml2-2.9.1-r1 icu
+# required by www-client/chromium-29.0.1547.57
+# required by chromium (argument)
+=sys-libs/zlib-1.2.7 minizip
+www-client/chromium -bindist
+x11-terms/rxvt-unicode 256-color fading-colors pixbuf xft
+x11-drivers/xf86-video-intel glamor uxa xvmc
+# required by x11-libs/glamor-0.5
+# required by x11-drivers/xf86-video-intel-2.20.13[glamor]
+# required by x11-base/xorg-drivers-1.13[video_cards_intel]
+# required by x11-base/xorg-server-1.13.4[xorg]
+# required by x11-drivers/xf86-input-mouse-1.8.1
+=media-libs/mesa-9.1.2-r1 gbm -llvm
+x11-wm/dwm savedconfig
+media-libs/freetype auto-hinter infinality
+x11-libs/libdrm libkms
